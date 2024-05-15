@@ -1,0 +1,11 @@
+{
+  "name": "camel-snake-ts-transform",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.1.1"
+}
