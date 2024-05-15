@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"]
+    "lib": ["ESNext"],
+    "types": ["vitest/globals"],
+    "skipLibCheck": true
   },
-  "include": ["transform.ts"]
+  "include": ["transform.ts", "transform.test.ts"]
 }
